@@ -77,19 +77,33 @@ The dataset we used is a csv containing a list of sex offenders residing in the 
 
 ***Graph 1***
 ```
-The following cross-tab displays the average of each gender/race's ages, separated by if their victims were minors. KPI is defined by age in two categories: older (above 50) and younger (below 30). From the table we can observe that most sex offenders appear to be in the "middle" range. There doesn't appear to be a significant difference between the age ranges that assaulted minors and those who assaulted non-minors. When comparing between the genders, the average age doesn't seem to skew in one way more than the other. That is, there are an almost even amount of categories where the average woman age was higher than the male and vice-versa. So it appears there is not much evidence to support that one gender of sex offender tends to be older than the other.
+The following cross-tab displays the average age of sex offenders as broken down by gender and race, separated by if their victims were minors. KPI is defined by age in two categories: older (above 50) and younger (below 30). From the table we can observe that:
+-Most sex offenders are around 40-50 years old
+-Black hispanics averages to be the oldest for both pedophiles and normal sex offenders
+-White hispanics averages to be the youngest for both pedophiles and normal sex offenders
+-Males are older than females for normal sex offenders
+-Female pedophiles have a larger spread in age across ages than male pedophiles.
 ```
 ![](Cross-Tab.jpg)
 
 ***Graph 2***
 ```
-The Scatterplot displays Height and Weight, separated by Gender. The plot points are also colored by whether or not the victim was a minor. Trend lines were added to make any possible trends within the bulk of points more visible. It is clear from the plot points that there are significantly more male sex offenders than female. Though possibly not a solid conclusion, the trend lines show that sex offenders who assaulted minors tend to weigh more and be shorter than those who assaulted non-minors. This trend is present in both the male and female categories.
+This graph shows the spread of height/weight ratios for sex offenders, broken down by sex, colour coded by if their victim was a minor. Trend lines were added to make any possible trends within the bulk of points more visible. We can observe that:
+-Female sex offenders appear to be around 60-70 inches tall, 100-300 pounds
+-Male sex offenders appear to be around 60-80 inches tall, 100-350 pounds
+-Sex offenders, both male and female, pedophile or otherwise, have a wide range of body sizes. There is a weak -positive trend of weight and height, but there is a large variance of height as weight increases.
+-There are significantly more male sex offenders reported than females. Due to the small sample size, we will not be analysing the female side of the graph.
+-Pedophiles heights seem to increase at a slower rate than weight as compared to normal sex offenders for males, but the difference between the two trend lines, as compared to the fairly small sample size (about 1300 sex offenders) is not great enough that we confidently say this is a supported conclusion to draw.
 ```
 ![](Scatterplot.jpg)
 
 ***Graph 3***
 ```
-The Bar Graph displays average age by race. It is further separated into two bar graphs, one for females and one for males (They are also colored differently to make the distinction more obvious). Reference lines were added for the overall average age in women and men, to compare against the specific races' averages. From the Graph we can see that the average male sex offender is around 5 years older than the average female sex offender. We can also see that Black Hispanic sex offender seem to be older in both male and female categories and that White hispanic tend to be younger in both.
+The Bar Graph displays average age by race. It is further separated into two bar graphs, one for females and one for males (They are also colored differently to make the distinction more obvious). Reference lines were added for the overall average age in women and men, to compare against the specific races' averages. From the Graph we can see that:
+-The average male sex offender is around 5 years older than the average female sex offender
+-That Black Hispanic sex offenders seem to be older in both male and female categories
+-White hispanic sex offenders tend to be younger in both categories
+-White hispanic female sex offenders seem to be younger than white hispanic male sex offenders in average
 ```
 ![](Bar Chart.jpg)
 
