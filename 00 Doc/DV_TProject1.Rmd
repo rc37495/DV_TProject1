@@ -71,22 +71,25 @@ cat(sql)
 ```
 
 ###Summary
-The dataset we used is a csv containing a list of sex offenders residing in the City of Chicago provided by the Chicago Police Department. Information for each person includes Name, Block of residence, Date of Birth, Race, Gender, Age, Weight, Height, and whether their victim was a minor or not.
+The dataset we used is a csv containing a list of sex offenders residing in the City of Chicago provided by the Chicago Police Department. Information for each person includes Name, Block of residence, Date of Birth, Race, Gender, Age, Weight, Height, and whether their victim was a minor or not. The dataset also included a row of redundant title names and a few "Unknown"s which were filtered out in the making of the tables below.
 
-###Workflows and Graphs
+###Graphs
 
 ***Graph 1***
 ```
+The following cross-tab displays the average of each gender/race's ages, separated by if their victims were minors. KPI is defined by age in two categories: older (above 50) and younger (below 30). From the table we can observe that most sex offenders appear to be in the "middle" range. There doesn't appear to be a significant difference between the age ranges that assaulted minors and those who assaulted non-minors. When comparing between the genders, the average age doesn't seem to skew in one way more than the other. That is, there are an almost even amount of categories where the average woman age was higher than the male and vice-versa. So it appears there is not much evidence to support that one gender of sex offender tends to be older than the other.
 ```
 ![](Cross-Tab.jpg)
 
 ***Graph 2***
 ```
+The Scatterplot displays Height and Weight, separated by Gender. The plot points are also colored by whether or not the victim was a minor. Trend lines were added to make any possible trends within the bulk of points more visible. It is clear from the plot points that there are significantly more male sex offenders than female. Though possibly not a solid conclusion, the trend lines show that sex offenders who assaulted minors tend to weigh more and be shorter than those who assaulted non-minors. This trend is present in both the male and female categories.
 ```
 ![](Scatterplot.jpg)
 
 ***Graph 3***
 ```
+The Bar Graph displays average age by race. It is further separated into two bar graphs, one for females and one for males (They are also colored differently to make the distinction more obvious). Reference lines were added for the overall average age in women and men, to compare against the specific races' averages. From the Graph we can see that the average male sex offender is around 5 years older than the average female sex offender. We can also see that Black Hispanic sex offender seem to be older in both male and female categories and that White hispanic tend to be younger in both.
 ```
 ![](Bar Chart.jpg)
 
